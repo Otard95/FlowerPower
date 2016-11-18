@@ -1,0 +1,5 @@
+Artificial Intelligence (AI, is usually defined as the science of making 
+computers do things that require intelligence when done by humans. 
+The term was first used in 1965 by Stanford researcher John McCarthy. 
+Since 1965 the progress has been slow, but for the last years the research and progress has increast. 
+There are two types of artificial intelligence, General AL and Narrow AL.
