@@ -1,0 +1,21 @@
+Jeg skal lage et chip-design som er under neural-system kortet. Til dette så kommer jeg til å lage 6 chips som
+man kan putte elementer inni chippene, som for eksempel bilder eller tekst. Disse chippene kommer til å
+være et bilde som jeg har laget selv, hvor chippene er "hule" så jeg kan fylle dem med elementer.
+Fargepalleten jeg kommer til å bruke, er svart, blått og hvitt.
+
+For å lage designet, har jeg tatt noen bilder jeg har googlet som inspirasjon. Jeg må også passe på at chippene
+er midstilt og har riktig avstand fra både hverandre og fra kanten av kortet. Til slutt så ville jeg ha en glow på
+'ledningene'.
+
+Innholdet i chippene kommer til å bli fylt med tekst og bilder. For det meste, så jeg har tenkt å ha et bilde i hver
+chip du kan hover'e over, bilde fader litt og forklarende tekst kommer på toppen av den. Hvis du klikker dette, så
+kommer du til en ny side hvor du kan få mer informasjon om dette emnet. Et problem som kan oppstå, er hvor store chippene
+skal være og hvor langt avstanden er fra kanten til chippene. Luft er bra for designet så det ikke ser så 'trangt' ut
+mellom elementene, men jeg må også ha riktig størrelse på chippene så teksten er mer synlig for bruker. Etter dette,
+må jeg tenke ut hvordan jeg skal finne 'kvadratiske' bilder, så det ikke ser så rart ut å scale dem til å passe inni
+chippene.
+
+Hele kortets bakgrunn blir bare et <img> med chip-designet jeg har laget. Deretter skal jeg bruke for det meste div's til
+elementene inni chippene. For å få riktig størrelse, bruker jeg en vw størrelse til bildene, så de har en relativ bredde.
+Hadde tenkt å bruke transitions også, for eksempel hvor man hover over et bilde, så blir den transition'a til å fade
+litt ut så når teksten kommer frem, blir den mer synlig.
