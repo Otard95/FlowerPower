@@ -1,0 +1,30 @@
+Vi vil ha en liten "easter-egg" relatert til tema. Vi implementerer dette med en splash page
+som leder til enten hovedsiden eller "easter-egg'et".
+Vi ønsker en "terminal" på denne siden. Som skal printe linje for linje til du har resulatatet under:
+ 
+::> Initializing G_TERMINAL...
+::> Connecting...
+::> Initializing InputStream()...
+::> Incoming transmission:
+::> 00100000 01000011 01100001 01110010 01101111 01101100 01101001 01101110 01100101
+::> 01000011 01100001 01110010 01101111 01101100 01101001 01101110 01100101
+::> 01010011 01110100 01100001 01110100 01110101 01110011 00111010
+::> 01001111 01101110 01100111 01101111 01101001 01101110 01100111
+::> !EOF
+::> Closing InputStream()...
+::> !Connection Lost
+::> Shutting Down...
+>
+
+Terminalen tenkes å ta opp 60-70% av siden. Midtstilt med en svart bakgrunn og gul-gull tekst, i stil med
+terminalen i "portal"(spillene).
+
+Selve siden er svært simpel en midtstilt <div id="container"> ca 60-70% av viewport.
+Innholdet skal dukke opp linje for linje. Dette velger vi å gjøre ved å ha hver linje som sitt eget <span>
+og ganske simpelt animere "display" attributtet fra "none" til "block". Ved å sette "animation-fill-mode" til
+"forwards" forsikrer vi at linjen blir der også. Animasjonen for hver linje vil ha hver sitt 
+delay("animation-delay") nesten lengere en det forrige. For den binære "input streamen" ønsker vi å animere "width"
+også slik at det ser mer ut som det kommer bit for bit. For dette kreves det at "overflow" er "hidden".
+Etter at siste linje er skrevet venter vi en stund slik at bruker rekker å lese og kanskje kopiere den binære koden.
+Etter ca 4s "avsluttes terminalen". Alt innhold får "display: none", evt. har vi en indre <div> i container div'en 
+som animeres til "display: none" etter at innholdet er animert.

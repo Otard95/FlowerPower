@@ -1,0 +1,54 @@
+Notater av ideer og CPS
+
+Tema: Kunstig intelligens (artificial intelligence)
+
+1. Utgangspunkt for problemet
+Hva slags type problem er det?
+Oppgaven er en idèproblem. Basert på teksten, så skal vi lage en kreativ løsning med temaet kunstig intelligens.
+Vi må lage en interaktiv HTML-løsning, hvor bruker har mulighet til å klikke eller peke seg rundt på elementer
+som er knyttet til temaet.
+
+2. Søk fakta
+Temaet for oppgaven er kunstig intelligens.
+Vi har ikke lov til å bruke HTML tagger og CSS egenskaper som ikke er oppgitt i malen.
+Vi skal bruke HTML5.
+CSS skal ligge i en eksternt stilark.
+Løsningen skal fungere i Chrome og Safari.
+Vi kan kun bruke HTML og CSS, ikke andre kodespråk.
+Alle på gruppen skal kode.
+Ressurser (bilder etc.) skal kun lenkes til prosjektmappen, ikke eksternt.
+Filen skal ikke bli større enn 10 MB.
+
+3. Søk problem
+Vi har to oppgaver:
+-	Skisse en løsning/konsept (hva skal lages) som er beskrevet med ord og tegning.
+-	Lage en gjennomføringsplan som beskriver hvordan eller når løsningen skal lages og hvem som gjør de ulike aktivitetene.
+
+Vi må finne ut hva vi vil lage, ut ifra ideene vi får og innen rammene vi har blitt satt innenfor. Deretter må vi
+planlegge hvem som skal gjøre hva. Kommentarer på koden kommer til å være viktig, siden ikke alle er like erfarne og
+har kunnskap om koding av HTML og CSS.
+Første oppgave er relativ grei, siden vi kan dele den i to deler: vi har brainstormet ideer på hvordan løsningen kan
+være, og etter det har vi skissert ideene på papir; både den visuelle presentasjonen, hvordan koden skal være bygget
+opp og hva den skal innholde.
+
+
+4. Søk ideer
+Vi har brainstormet mange ideer sammen og vi har kommet til enighet at websiden skal inneholde følgende stikkord:
+*neural
+*chip-design
+*automatikk
+*robot
+*emulering
+*system
+
+Skissene vi har lagd har hjulpet oss å velge hvilken design vår webside skal ha. Vi bestemte oss for å ha et
+neuralt nettverk design, kombinert med at elementene skal ha en chip-design kombinert med et card-system.
+
+
+<!-- Har ikke startet dette ennå. -->
+
+5. Søk løsning
+
+6. Søk aksept
+
+7. Lag handlingsplan

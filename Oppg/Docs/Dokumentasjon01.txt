@@ -1,0 +1,11 @@
+Rammeverket tillater ikke bruk av javascript, men Kai så for et par uker siden et klipp som viste
+til at man kunne legge inn javascript i bildefiler av typen gif og bmp.
+Vi tok en risikovurdering av dette, og kom enstemmig frem til at det ikke var verdt å risikere
+karakteren i faget for en sjanse til å få god tilbakemelding av å ha "tenkt utenfor boksen".
+En beskrivelse av hvordan man utfører en slik operasjon finner man f.eks her:
+https://osandamalith.com/2014/11/13/js-via-images/
+Ved å avdekke denne "exploiten" i forhold til oppgaven og legge den ved i dokumentasjonen håper vi på
+positiv respons.
+#whiteHat
+
+-Kai
