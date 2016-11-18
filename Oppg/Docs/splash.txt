@@ -1,0 +1,5 @@
+Meny: Nav-baren må være en <div>, logoen kan være en <img>. <a> tag for links.
+
+Splash: en 100% width <div> med display:flex og med to 50% width <div> som inneholder en <a> for knapper «ja» og «nei» i hver av <div>ene med margin:auto som blir midstilt. I tillegg en <h1> for tittel og en <p> for «confirm your humantiy» tekst.
+
+Neural map: selve neural map er en <img>, med <div> på de ulike «nodes» med :hover for å fremheve informasjon
