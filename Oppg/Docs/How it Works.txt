@@ -1,0 +1,3 @@
+Kunstig intelligens fungerer i hovedsak ved at maskinen utfører målinger og tar avgjørelser basert
+på de reglene som er definert. Maskinen vil også loggføre hvilke resultat som ble oppnådd i ulike situasjoner
+og forandre på reglene ut i fra disse. Dette kalles maskinlæring, og lar maskinen "lære" av egen suksess/feil.
