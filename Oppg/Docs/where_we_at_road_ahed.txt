@@ -1,0 +1,16 @@
+Where we at?
+	*<p tags til overskift
+	*<h tags til info
+	*<div lager divs for siden	
+	*transform: scewX(-45deg)
+	*bruke colums som er skrevet om ovenfor
+	*vi ser på hva slags farger som passer bst når vi begyner å kode
+bilde fra: https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/03/AppleSiri1TNW-1200x651.jpg
+Road ahed
+	*<p tags til overskift
+	*<h tags til info
+	*<div lager divs for siden	
+	*bruke colums som er skrevet om ovenfor
+	*transform: scewX(45deg)
+	*vi ser på hva slags farger som passer bst når vi begyner å kode
+bilde fra: http://www.google.com/selfdrivingcar/images/home-where.jpg
