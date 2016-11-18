@@ -1,0 +1,9 @@
+What is it?
+	*<h1></h1>: overskrift
+	*<p></p>: info
+	*<div></div>: div for siden
+      	*colum 4: brukes for info og overskrift (<h1></h1> og <p></p>)
+	*colum 2: Brukes for bilde
+	*Vi ser på hva slags farger som passer best når vi begynner å kode
+bilde fra: http://img.gfx.no/1879/1879116/Kunstig%20intelligens.1000x553.jpg
+
