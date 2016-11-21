@@ -1,0 +1,28 @@
+//$1.css
+#road-ahead
+  #img-container
+    position: absolute
+    height: 600px
+    width: 1272px
+    top: 0
+    left: -980px
+    transform: skewX(-45deg)
+    overflow: hidden
+    border-right: 8px solid rgba(0,0,0,0.3)
+    transition: all 800ms ease-in-out
+
+    &:hover
+      left: -530px
+
+      img
+        right: -300px
+
+    img
+      height: 600px
+      position: absolute
+      right: -750px
+      transform: skewX(45deg)
+      transition: all 800ms ease-in-out
+
+  #content
+    padding-left: 620px
