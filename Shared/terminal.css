@@ -1,0 +1,152 @@
+html, body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		background: #222;
+		color: #FB0;
+		font-family: Fira Mono, monospace;
+		font-size: 18px;
+}
+
+body {
+		height: auto;
+}
+
+.terminal {
+		height: 70vh;
+		width: 70vw;
+		padding: 10px;
+		margin: auto;
+		margin-top: 15vh;
+		border: 2px dashed #FB0;
+}
+
+.content {
+		animation-name: shutdown;
+		animation-duration: 0.1s;
+		animation-timing-function: step-end;
+		animation-fill-mode: forwards;
+		animation-delay: 13s;
+}
+
+.line {
+		height: 22px;
+		display: block;
+		opacity: 0;
+		animation-name: terminal-print;
+		animation-duration: 0.1s;
+		animation-timing-function: step-end;
+		animation-fill-mode: forwards;
+}
+
+.line.bin-code {
+		width: 0%;
+		opacity: 1;
+		overflow: hidden;
+		animation-name: terminal-write;
+		animation-duration: 500ms;
+		animation-timing-function: linear;
+}
+
+#l1 {
+		animation-delay: 700ms;
+}
+
+#l2 {
+		animation-delay: 1400ms;
+}
+
+#l3 {
+		animation-delay: 2100ms;
+}
+
+#l4 {
+		animation-delay: 2800ms;
+}
+
+#l5 {
+		animation-delay: 3500ms;
+}
+
+#l6 {
+		animation-delay: 4000ms;
+}
+
+#l7 {
+		animation-delay: 4500ms;
+}
+
+#l8 {
+		animation-delay: 5000ms;
+}
+
+#l9 {
+		animation-delay: 5300ms;
+}
+
+#l10 {
+		animation-delay: 6000ms;
+}
+
+#l11 {
+		animation-delay: 6700ms;
+}
+
+#l12 {
+		animation-delay: 7400ms;
+}
+
+#cursor-container {
+		height: 22px;
+		display: block;
+		opacity: 0;
+		animation-name: terminal-print;
+		animation-duration: 0.1s;
+		animation-timing-function: step-end;
+		animation-fill-mode: forwards;
+		animation-delay: 7.4s;
+}
+
+#cursor {
+		opacity: 0;
+		animation-name: blink;
+		animation-duration: 1.2s;
+		animation-timing-function: step-end;
+		animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+		0%, 100% {
+				opacity: 1;
+		}
+		50% {
+				opacity: 0;
+		}
+}
+
+@keyframes terminal-print {
+		0% {
+				opacity: 0;
+		}
+		100% {
+				opacity: 1;
+		}
+}
+
+@keyframes terminal-write {
+		0% {
+				width: 0%;
+		}
+		100% {
+				width: 100%;
+		}
+}
+
+@keyframes shutdown {
+		0% {
+				opacity: 1;
+		}
+		100% {
+				opacity: 0;
+		}
+}
