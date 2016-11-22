@@ -1,30 +1,38 @@
-
-#road-ahead
-  height: 600px
+#where-we-at{
+  height: 600px;
+}
   
-  #img-container
-    position: absolute
-    height: 600px
-    width: 1067px
-    top: 0
+#img-container{
+    position: absolute;
+    height: 600px;
+    width: 1067px;
+    top: 0;
     left: -775px
-    transform: skewX(-45deg)
-    overflow: hidden
-    border-right: 8px solid rgba(0,0,0,0.3)
-    transition: all 800ms ease-in-out
+    transform: skewX(-45deg);
+    overflow: hidden;
+    border-right: 8px solid rgba(0,0,0,0.3);
+    transition: all 800ms ease-in-out;
+}
 
-    &:hover
-      right: 300px
+&:hover{
+      right: 300px;
 
       img
-        left: 300px
+        left: 300px;
+}
+#siri1{
+      height: 500px;
+      width: 500px;
+    
+      position: absolute;
+      right: 650px;
+      transform: skewX(25deg);
+      transition: all 800ms ease-in-out;
+}
+#tekst{
+    font-family: "calibri";
+}
 
-    img
-      height: 600px
-      position: absolute
-      right: -750px
-      transform: skewX(45deg)
-      transition: all 800ms ease-in-out
-
-  #content
-    padding-left: 620px
+#content{
+    padding-left: 620px;
+}
