@@ -1,8 +1,6 @@
-#container *{
-    position: relative;
-}
-#container{
-    width 100%;
-    height: 400px;
-    background-color: magenta;
+#containerNav{
+    height: 100%;
+    width: 100%;
+    background-color: #eee;
+    padding-top: 100px;
 }
