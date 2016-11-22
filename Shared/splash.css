@@ -8,29 +8,28 @@
     padding-top: 100px
 }
 
-h1{
+#containerSplash h1{
   margin-top: 0;
   font-size: 5em;
 }
 
-p{
+#containerSplash p{
   margin-top: 100px;
     font-size: 3em;
 }
 
-#buttons{
+#containerSplash #buttons{
     height: 350px;
     width: 100%;
     margin-top: 150px;
     display: flex;
 }
-#Sub{
+
+#containerSplash #Sub{
     width: 50%;
 }
-#Sub{
-    width: 50%;
-}
-a{
+
+#containerSplash a{
     display: block;
     background: #0074D9;
     border: 8px solid #7FDBFF;
@@ -42,6 +41,6 @@ a{
     text-align: center;
     transition: background 300ms ease-in-out
 }
-a:hover{
+#containerSplash a:hover{
     background: #7FDBFF;
 }
