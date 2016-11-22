@@ -1,38 +1,46 @@
-#where-we-at{
-  height: 600px;
-}
-  
-#img-container{
-    position: absolute;
-    height: 600px;
-    width: 1067px;
-    top: 0;
-    left: -775px
-    transform: skewX(-45deg);
+#where-we-at {
+		height: 600px;
+    background: url('../Imgs/whereWeAt/siri2.jpg');
+    background-size: cover;
+    background-position: center;
+		color: #eee;
     overflow: hidden;
-    border-right: 8px solid rgba(0,0,0,0.3);
-    transition: all 800ms ease-in-out;
 }
 
-&:hover{
-      right: 300px;
-
-      img
-        left: 300px;
-}
-#siri1{
-      height: 500px;
-      width: 500px;
-    
-      position: absolute;
-      right: 650px;
-      transform: skewX(25deg);
-      transition: all 800ms ease-in-out;
-}
-#tekst{
-    font-family: "calibri";
+#where-we-at h1 {
+		margin-top: 40px;
+		font-size: 60px;
+		font-weight: lighter;
 }
 
-#content{
-    padding-left: 620px;
+#where-we-at #img-container {
+		position: absolute;
+		height: 600px;
+		width: 1106px;
+		top: 0;
+		right: -814px;
+		transform: skewX(45deg);
+		overflow: hidden;
+		border-left: 8px solid rgba(255, 255, 255, 0.3);
+		transition: all 800ms ease-in-out;
+}
+
+#where-we-at #img-container:hover {
+		right: -300px;
+}
+
+#where-we-at #img-container:hover img {
+		left: -300px;
+}
+
+#where-we-at #img-container img {
+		height: 600px;
+		position: absolute;
+		left: -550px;
+		transform: skewX(-45deg);
+		transition: all 800ms ease-in-out;
+}
+
+#where-we-at #content {
+		padding-right: 620px;
 }

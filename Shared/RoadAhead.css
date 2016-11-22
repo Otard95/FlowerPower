@@ -4,6 +4,7 @@
 		background-size: cover;
 		background-position: center;
 		color: #eee;
+		overflow: hidden;
 }
 
 #road-ahead h1 {
