@@ -11,7 +11,8 @@ h1 {
 
 p {
 		text-align: center;
-        padding: 0 20px;
+		padding: 0 20px;
+		font-size: 18px;
 }
 
 a {
@@ -57,29 +58,4 @@ a:visited {
 .column-6 {
 		width: 100%;
 		height: 100%;
-}
-
-#kai-row-howitworks {
-        background-color: #000;
-        color: #eee;
-        font-family: monospace;
-        font-style: oblique;
-        font-size: 1.2em;
-}
-
-#kai-col-howitworks {
-        padding: 5px;
-}
-
-#hiw-img {
-    width: 100%;
-    //height: 43%;
-    transition: all 1s ease;
-    -webkit-transition: all 1s ease;
-}
-
-#hiw-img:hover {
-    transform: translate(-67%, 0px);
-    height: 100%;
-    width: auto;
 }
