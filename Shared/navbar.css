@@ -20,13 +20,17 @@ nav a{
   color: white;
   padding: 0 40px 0;
   transform: skewX(45deg);
+  -webkit-transform: skewX(45deg);
   transition: transform 300ms ease-in-out;
+  -webkit-transition: transform 300ms ease-in-out;
 }
 nav a p{
   font-size: 1.7em;
   margin: 10px 0;
   transform: skewX(-45deg);
+  -webkit-transform: skewX(-45deg);
 }
 nav a:hover{
   transform: skewX(45deg) translateY(4px);
+  -webkit-transform: skewX(45deg) translateY(4px);
 }
