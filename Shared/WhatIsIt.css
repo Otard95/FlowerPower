@@ -1,0 +1,18 @@
+#what-is-it {
+		background-color: #7cb6e8;
+		height: 500px;
+		color: white;
+}
+
+#what-is-it #img {
+		background-image: url("../Imgs/WhatIsIt.jpg");
+		background-size: cover;
+		background-position: center;
+		border-right: 8px solid #eee;
+}
+
+#what-is-it #content {
+		background-image: url("../Imgs/neural-map-bg.png");
+		background-position: center;
+		background-size: cover;
+}

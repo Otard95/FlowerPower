@@ -7,12 +7,13 @@ html, body {
 
 h1 {
 		text-align: center;
+		font-size: 60px;
 }
 
 p {
 		text-align: center;
 		padding: 0 20px;
-		font-size: 18px;
+		font-size: 20px;
 }
 
 a {
