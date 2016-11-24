@@ -8,6 +8,7 @@
     background: url('../Imgs/HowItWorks/AI_types.jpg');
     background-position: center;
     background-size: 100% auto;
+    background-repeat: no-repeat;
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
 }
