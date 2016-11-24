@@ -8,16 +8,15 @@
     background: url('../Imgs/HowItWorks/AI_types.jpg');
     background-position: center;
     background-size: 100% auto;
+    background-color: #000;
     background-repeat: no-repeat;
-    transition: all 1s ease;
-    -webkit-transition: all 1s ease;
+    margin-left: 8px;
 }
 
-#kai-row-howitworks #img:hover {
-    background-size: 120%;
-}
-
-#hiwTitle {
-    background-color: #bbb;
-    justify-content: center;
+#kai-row-howitworks #content {
+    background-image: url("../Imgs/img_00142.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
 }
