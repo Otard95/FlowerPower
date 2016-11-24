@@ -10,7 +10,7 @@
     background-size: 100% auto;
     background-color: #000;
     background-repeat: no-repeat;
-    margin-right: 8px;
+    border-right: 8px #eee solid;
 }
 
 #kai-row-howitworks #content {
