@@ -17,30 +17,30 @@
 		height: 600px;
 		width: 1067px;
 		top: 0;
-		left: -775px;
-		transform: skewX(-45deg);
+		right: -775px;
+		transform: skewX(45deg);
 		overflow: hidden;
-		border-right: 8px solid rgba(255, 255, 255, 0.3);
+		border-left: 8px solid rgba(255, 255, 255, 0.3);
 		transition: all 800ms ease-in-out;
 		z-index: 99;
 }
 
 #road-ahead #img-container:hover {
-		left: -300px;
+		right: -300px;
 }
 
 #road-ahead #img-container:hover img {
-		right: -300px;
+		left: -300px;
 }
 
 #road-ahead #img-container img {
 		height: 600px;
 		position: absolute;
-		right: -750px;
-		transform: skewX(45deg);
+		left: -750px;
+		transform: skewX(-45deg);
 		transition: all 800ms ease-in-out;
 }
 
 #road-ahead #content {
-		padding-left: 620px;
+		padding-right: 620px;
 }
