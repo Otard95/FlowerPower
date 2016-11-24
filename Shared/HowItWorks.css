@@ -1,7 +1,7 @@
 #kai-row-howitworks {
-        background-color: #bbb;
-        height: 500px;
-        overflow: hidden;
+    background-color: #bbb;
+    height: 500px;
+    overflow: hidden;
 }
 
 #kai-row-howitworks #img {
@@ -11,4 +11,13 @@
     background-repeat: no-repeat;
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
+}
+
+#kai-row-howitworks #img:hover {
+    background-size: 120%;
+}
+
+#hiwTitle {
+    background-color: #bbb;
+    justify-content: center;
 }
