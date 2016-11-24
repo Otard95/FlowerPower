@@ -37,10 +37,17 @@
     width: 40%;
     margin: 0 30%;
     padding: 5% 0;
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
     transition: background 300ms ease-in-out
 }
 #containerSplash a:hover{
     background: #7FDBFF;
+}
+#containerSplash a#ai{
+    background: #00CC88;
+    border: 8px solid #66FFCC;
+}
+#containerSplash a#ai:hover{
+    background: #66FFCC;
 }
