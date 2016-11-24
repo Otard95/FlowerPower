@@ -8,5 +8,28 @@ div *{
     height: 20px;
     width: 60px;
     left: 200px;
-    top: 470px;
+    top: 476px;
+}
+#div2{
+    height: 20px;
+    width: 65px;
+    left: 350px;
+    top: 216px;
+}
+#div3{
+    height: 20px;
+    width: 65px;
+    left: 640px;
+    top: 345px;
+}
+#div4{
+    height: 20px;
+    width: 65px;
+    left: 670px;
+    top: 704px;
+}#div5{
+    height 20px;
+    width: 65px;
+    left: 1070px;
+    top: 480px;
 }
