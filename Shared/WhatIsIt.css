@@ -4,6 +4,10 @@
 		color: white;
 }
 
+#what-is-it h1{
+	margin: 100px 0px;
+}
+
 #what-is-it #img {
 		background-image: url("../Imgs/WhatIsIt.jpg");
 		background-size: cover;

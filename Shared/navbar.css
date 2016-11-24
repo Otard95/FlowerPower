@@ -12,7 +12,7 @@ nav{
 nav img{
   height: 100px;
   width: 300px;
-  margin: 6px 130px 0px 15%;
+  margin: 6px 130px 0px 10%;
 }
 
 nav a{
@@ -26,6 +26,9 @@ nav a{
   -webkit-transform: skewX(45deg);
   transition: transform 300ms ease-in-out;
   -webkit-transition: transform 300ms ease-in-out;
+}
+nav a:visited{
+  color: white;
 }
 nav a p{
   font-size: 1.7em;

@@ -4,6 +4,10 @@
     overflow: hidden;
 }
 
+#kai-row-howitworks h1{
+    margin: 70px 0px;
+}
+
 #kai-row-howitworks #img {
     background: url('../Imgs/HowItWorks/AI_types.jpg');
     background-position: center;
