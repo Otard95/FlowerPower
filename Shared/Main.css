@@ -5,6 +5,10 @@ html, body {
 		font-family: Helvetica, sans-serif;
 }
 
+#pusher {
+	height: 86px;
+}
+
 h1 {
 		text-align: center;
 		font-size: 60px;
