@@ -22,6 +22,7 @@
 		overflow: hidden;
 		border-right: 8px solid rgba(255, 255, 255, 0.3);
 		transition: all 800ms ease-in-out;
+		z-index: 99;
 }
 
 #road-ahead #img-container:hover {
