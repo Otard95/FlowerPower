@@ -26,6 +26,10 @@
     opacity: 1;
 }
 
+#chip .chip-info:hover #c-more {
+    opacity: 0;
+}
+
 #chip #c-1 {
     top: 2.1vw;
     left: 10.3vw;
@@ -68,6 +72,16 @@
     transition: all 300ms ease-in-out;
 }
 
+#chip #c-more {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 48%;
+    left: 25%;
+    opacity: 1;
+    transition: all 300ms ease-in-out;
+}
 /* Huskeliste for andre ting: Trigger. 
 #container:hover #boks1{  Hvis du peker på #container, skal det følgende skje med elementet som er #boks1 
     opacity: 0;
