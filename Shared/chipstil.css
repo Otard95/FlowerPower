@@ -1,5 +1,6 @@
 /* Container kode. */
 #chip {
+    width: 100vw;
     height: 46.875vw;
     background: url('../Imgs/Chip.png');
     background-size: 100%;
@@ -67,6 +68,9 @@
 }
 
 #chip p {
+    width: 92%;
+    padding: 4%;
+    margin: 0;
     font-size: 1vw;
     opacity: 0;
     transition: all 300ms ease-in-out;
@@ -82,11 +86,11 @@
     opacity: 1;
     transition: all 300ms ease-in-out;
 }
-/* Huskeliste for andre ting: Trigger. 
-#container:hover #boks1{  Hvis du peker på #container, skal det følgende skje med elementet som er #boks1 
+/* Huskeliste for andre ting: Trigger.
+#container:hover #boks1{  Hvis du peker på #container, skal det følgende skje med elementet som er #boks1
     opacity: 0;
 } */
 
-/* #boks1:hover{  Hvis du peker på #boks1, skal det følgende skje. 
+/* #boks1:hover{  Hvis du peker på #boks1, skal det følgende skje.
     height: 700px;
 } */
