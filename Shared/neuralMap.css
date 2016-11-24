@@ -2,29 +2,34 @@ img{
     width: 1351px;
 }
 #div1{
+    position: absolute;
     height: 20px;
     width: 60px;
     left: 200px;
     top: 476px;
 }
 #div2{
+    position: absolute;
     height: 20px;
     width: 65px;
     left: 350px;
     top: 216px;
 }
 #div3{
+    position: absolute;
     height: 20px;
     width: 65px;
     left: 640px;
     top: 345px;
 }
 #div4{
+    position: absolute;
     height: 20px;
     width: 65px;
     left: 670px;
     top: 704px;
 }#div5{
+    position: absolute;
     height 20px;
     width: 65px;
     left: 1070px;
