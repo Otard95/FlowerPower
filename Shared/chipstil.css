@@ -1,52 +1,72 @@
 /* Container kode. */
-#container {
-    width: 1920px;
-    height: 900px;
-    background-color: dimgray;
-    margin: auto;
-    position: relative;
-}
-
-/* Chip kode, husk å putte et bilde her. */
 #chip {
-    width: 500px;   /* Høyde og bredde er bare et eksempel, må tilpasse dette når jeg får åpnet PSD filen. */
-    height: 400px;
-    border: 2px solid lightblue;
-    background-color: red;
+    height: 46.875vw;
+    background: url('../Imgs/Chip.png');
+    background-size: 100%;
+    color: white;
     margin: auto;
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    opacity: 1;
-    transition: opacity 300ms ease-in-out
-}
-
-/* Chip hover. Skal fade litt ut så teksten som kommer opp blir med synlig. */
-#chip:hover {
-    opacity: 0.5;
-}
-
-#chiptxt {
-    opacity: 0;
-}
-
-#chiptxt:hover {
-    opacity: 1;
-}
-
-/* Chip text. Denne teksten skal være skjult, men når man hover over et chip, skal den bli synlig. */
-#chip p {
-    opacity: 0;
-    color: #eee;
     position: relative;
+    overflow: hidden;
+}
+
+/* Chip kode. */
+#chip .chip-info {
+    width: 18.2vw;
+    height: 18.2vw;
+    background: rgba(0,0,0,.0);
+    position: absolute;
     transition: all 300ms ease-in-out;
 }
 
-/* Tekst hover inni chip. */
-#chip:hover p {
+#chip .chip-info:hover {
+    background: rgba(0,0,0,.3);
+}
+
+#chip .chip-info:hover h1, #chip .chip-info:hover p {
     opacity: 1;
 }
 
+#chip #c-1 {
+    top: 2.1vw;
+    left: 10.3vw;
+}
+
+#chip #c-2 {
+    top: 2.1vw;
+    left: 40.9vw;
+}
+
+#chip #c-3 {
+    top: 2.1vw;
+    left: 71.5vw;
+}
+
+#chip #c-4 {
+    top: 26.6vw;
+    left: 10.3vw;
+}
+
+#chip #c-5 {
+    top: 26.6vw;
+    left: 40.9vw;
+}
+
+#chip #c-6 {
+    top: 26.6vw;
+    left: 71.5vw;
+}
+
+#chip h1 {
+    font-size: 1.7vw;
+    opacity: .7;
+    transition: all 300ms ease-in-out;
+}
+
+#chip p {
+    font-size: 1vw;
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
 
 /* Huskeliste for andre ting: Trigger. 
 #container:hover #boks1{  Hvis du peker på #container, skal det følgende skje med elementet som er #boks1 
